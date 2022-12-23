@@ -11,7 +11,7 @@ type MovieListCardProps = {
 };
 export const MovieListCard = ({ item }: MovieListCardProps) => {
   return (
-    <Card sx={{ maxWidth: 345, boxShadow: "none" }} background="primary">
+    <Card sx={{ boxShadow: "none" }} component="div">
       <CardMedia
         component="img"
         alt="green iguana"
