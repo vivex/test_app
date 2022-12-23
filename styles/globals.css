@@ -86,22 +86,17 @@ body {
 }
 
 body {
-  color: rbg(--foreground-rgb);
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #bfc1c3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
-  color: inherit;
+  color: #0097d8;
   text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }

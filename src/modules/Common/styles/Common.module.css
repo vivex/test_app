@@ -1,0 +1,24 @@
+.twoPaneWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.rightPane {
+    flex: 1;
+    background-color: #131a20;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.75);
+    clip-path: inset(0px 0px 0px -30px);
+    max-width: 250px;
+}
+
+.leftPane {
+    flex: 1;
+    flex-basis: 50%;
+    width: 50%;
+  
+}
